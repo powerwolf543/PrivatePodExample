@@ -2,11 +2,18 @@
 
 This project demonstrates how to create private cocoapod.
 
+## Tutorial
+
+- Create your podspec file
+
+```ruby
+pod spec create '<Your Pod Name>'
+```
 ## Installation
 
 ### CocoaPods
 
-To integrate NixonUtility into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate PrivatePod into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 use_frameworks!
