@@ -1,0 +1,16 @@
+PODS:
+  - PrivatePod (1.0.0)
+
+DEPENDENCIES:
+  - PrivatePod (from `../`)
+
+EXTERNAL SOURCES:
+  PrivatePod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PrivatePod: 6db9bff95f21e6670f443634aa1fa7419e040f26
+
+PODFILE CHECKSUM: 6f549fe48c6ed8fd250941731c61fa79a972201f
+
+COCOAPODS: 1.2.1

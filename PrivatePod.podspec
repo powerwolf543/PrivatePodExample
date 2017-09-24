@@ -6,8 +6,10 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "NixonShih" => "powerwolf543@gmail.com" }
   s.social_media_url   = "https://twitter.com/powerwolf543"
+  s.homepage     = "https://twitter.com/powerwolf543"
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/powerwolf543/PrivatePodExample", :tag => s.version }
+  s.ios.deployment_target  = '10.0'
+  s.source       = { :git => "https://github.com/powerwolf543/PrivatePodExample.git", :tag => s.version }
   s.source_files  = "PrivatePod/*.swift"
   s.frameworks    = 'Foundation', 'UIKit'
 
@@ -16,8 +18,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  # s.description  = <<-DESC
 
   # s.homepage     = "http://EXAMPLE/PrivatePod"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
