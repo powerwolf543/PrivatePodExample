@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = { "NixonShih" => "powerwolf543@gmail.com" }
   s.social_media_url   = "https://twitter.com/powerwolf543"
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/powerwolf543/PrivatePodExample", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/powerwolf543/PrivatePodExample", :tag => s.version }
   s.source_files  = "PrivatePod/*.swift"
   s.frameworks    = 'Foundation', 'UIKit'
 
