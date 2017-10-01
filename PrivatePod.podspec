@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/powerwolf543/PrivatePodExample.git", :tag => s.version }
   s.source_files  = "PrivatePod/*.swift"
   s.frameworks    = 'Foundation', 'UIKit'
+  #s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL[config=Debug]' => '-Owholemodule' }
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

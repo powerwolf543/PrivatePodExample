@@ -46,6 +46,7 @@ import PrivatePod
 - iOS 10+
 - Xcode 9+
 - Swift 4+
+- CocoaPods 1.3.1+
 
 ## Version
 

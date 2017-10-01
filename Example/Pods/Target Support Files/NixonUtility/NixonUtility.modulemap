@@ -1,0 +1,6 @@
+framework module NixonUtility {
+  umbrella header "NixonUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}
