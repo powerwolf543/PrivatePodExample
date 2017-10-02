@@ -15,6 +15,10 @@ A Podspec file, or Spec, describes a version of a Pod library. It includes detai
 
 A Podspec is essentially a snapshot in time of your CocoaPod as denoted by a version number. When you update a pod, you will also need to update the Podspec’s version. You can change it to any version that is suitable to you but make sure that it is the same version as your Git tag version.
 
+## Example
+
+To run the example project, run `pod install` from the Example directory first.
+
 ## Installation
 
 ### CocoaPods
@@ -52,6 +56,10 @@ import PrivatePod
 
 - v 1.0.0
 
+## Author
+
+Nixon Shih, powerwolf543@gmail.com
+
 ## License
 
-MIT
+NixonUtility is available under the MIT license. See the LICENSE file for more info.
