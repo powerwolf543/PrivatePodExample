@@ -12,11 +12,10 @@
 		2595C3821F77F0D4006C4FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2595C3801F77F0D4006C4FFB /* Main.storyboard */; };
 		2595C3841F77F0D4006C4FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2595C3831F77F0D4006C4FFB /* Assets.xcassets */; };
 		2595C3871F77F0D4006C4FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2595C3851F77F0D4006C4FFB /* LaunchScreen.storyboard */; };
-		524E17E7E6150FFA7F1DF959 /* Pods_ExPrivatePod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015B4AAB5342A725730AE496 /* Pods_ExPrivatePod.framework */; };
+		D0EDE4CF0920E056D93B8795 /* Pods_ExPrivatePod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE2A3DFE49D65E070D9A6CF /* Pods_ExPrivatePod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015B4AAB5342A725730AE496 /* Pods_ExPrivatePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExPrivatePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2595C3791F77F0D4006C4FFB /* ExPrivatePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExPrivatePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2595C37C1F77F0D4006C4FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2595C37E1F77F0D4006C4FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +23,9 @@
 		2595C3831F77F0D4006C4FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2595C3861F77F0D4006C4FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2595C3881F77F0D4006C4FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4F94EADD95B2DCFEB872E48 /* Pods-ExPrivatePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExPrivatePod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExPrivatePod/Pods-ExPrivatePod.debug.xcconfig"; sourceTree = "<group>"; };
-		B730CA16CADD2E6E4C3265A9 /* Pods-ExPrivatePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExPrivatePod.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExPrivatePod/Pods-ExPrivatePod.release.xcconfig"; sourceTree = "<group>"; };
+		9F4E38D95A4E56819A03B30F /* Pods-ExPrivatePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExPrivatePod.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExPrivatePod/Pods-ExPrivatePod.release.xcconfig"; sourceTree = "<group>"; };
+		EF1E8005F6A1034750E114E9 /* Pods-ExPrivatePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExPrivatePod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExPrivatePod/Pods-ExPrivatePod.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE2A3DFE49D65E070D9A6CF /* Pods_ExPrivatePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExPrivatePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524E17E7E6150FFA7F1DF959 /* Pods_ExPrivatePod.framework in Frameworks */,
+				D0EDE4CF0920E056D93B8795 /* Pods_ExPrivatePod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,8 @@
 			children = (
 				2595C37B1F77F0D4006C4FFB /* ExPrivatePod */,
 				2595C37A1F77F0D4006C4FFB /* Products */,
-				649ACF23D67A5DD5704C353C /* Pods */,
-				DC63C462E483F55DC447AAE0 /* Frameworks */,
+				778E72EA0D65EB8BB97C953F /* Pods */,
+				E77F64A41E58FE99AE40627E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,19 +71,19 @@
 			path = ExPrivatePod;
 			sourceTree = "<group>";
 		};
-		649ACF23D67A5DD5704C353C /* Pods */ = {
+		778E72EA0D65EB8BB97C953F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4F94EADD95B2DCFEB872E48 /* Pods-ExPrivatePod.debug.xcconfig */,
-				B730CA16CADD2E6E4C3265A9 /* Pods-ExPrivatePod.release.xcconfig */,
+				EF1E8005F6A1034750E114E9 /* Pods-ExPrivatePod.debug.xcconfig */,
+				9F4E38D95A4E56819A03B30F /* Pods-ExPrivatePod.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC63C462E483F55DC447AAE0 /* Frameworks */ = {
+		E77F64A41E58FE99AE40627E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				015B4AAB5342A725730AE496 /* Pods_ExPrivatePod.framework */,
+				FBE2A3DFE49D65E070D9A6CF /* Pods_ExPrivatePod.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,12 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2595C38B1F77F0D4006C4FFB /* Build configuration list for PBXNativeTarget "ExPrivatePod" */;
 			buildPhases = (
-				2EAAE5699DED1041E6EFF2DF /* [CP] Check Pods Manifest.lock */,
+				5DF7790587B9DED2060ABA96 /* [CP] Check Pods Manifest.lock */,
 				2595C3751F77F0D4006C4FFB /* Sources */,
 				2595C3761F77F0D4006C4FFB /* Frameworks */,
 				2595C3771F77F0D4006C4FFB /* Resources */,
-				564DAB131B28221ADAB1FF3E /* [CP] Embed Pods Frameworks */,
-				7345BF78CF51CEFA87DDE2C8 /* [CP] Copy Pods Resources */,
+				5C8A084C1542C362A77DEDA6 /* [CP] Embed Pods Frameworks */,
+				725FA7706751A15403F7D83E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,25 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2EAAE5699DED1041E6EFF2DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExPrivatePod-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		564DAB131B28221ADAB1FF3E /* [CP] Embed Pods Frameworks */ = {
+		5C8A084C1542C362A77DEDA6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,7 +179,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExPrivatePod/Pods-ExPrivatePod-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7345BF78CF51CEFA87DDE2C8 /* [CP] Copy Pods Resources */ = {
+		5DF7790587B9DED2060ABA96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExPrivatePod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725FA7706751A15403F7D83E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,6 +300,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -349,13 +350,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2595C38C1F77F0D4006C4FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4F94EADD95B2DCFEB872E48 /* Pods-ExPrivatePod.debug.xcconfig */;
+			baseConfigurationReference = EF1E8005F6A1034750E114E9 /* Pods-ExPrivatePod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,14 +366,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.NixonDesign.ExPrivatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2595C38D1F77F0D4006C4FFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B730CA16CADD2E6E4C3265A9 /* Pods-ExPrivatePod.release.xcconfig */;
+			baseConfigurationReference = 9F4E38D95A4E56819A03B30F /* Pods-ExPrivatePod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,7 +382,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.NixonDesign.ExPrivatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
