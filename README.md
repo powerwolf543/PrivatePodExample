@@ -62,4 +62,4 @@ Nixon Shih, powerwolf543@gmail.com
 
 ## License
 
-NixonUtility is available under the MIT license. See the LICENSE file for more info.
+PrivatePod is available under the MIT license. See the LICENSE file for more info.
