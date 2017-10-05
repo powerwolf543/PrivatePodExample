@@ -4,14 +4,19 @@ This project demonstrates how to create private cocoapod.
 
 ## Tutorial
 
-- Create your podspec file
+### Create your podspec file
+
+Ｒun the following command:
 
 ```ruby
 pod spec create '<Your Pod Name>'
 ```
+
 A Podspec file, or Spec, describes a version of a Pod library. It includes details about where the source files are located, which files to use, the build settings to apply, dependencies, frameworks used and other general metadata such as the name, version and description for the Pod.
 
-- Podspec version
+### Podspec
+
+- version
 
 A Podspec is essentially a snapshot in time of your CocoaPod as denoted by a version number. When you update a pod, you will also need to update the Podspec’s version. You can change it to any version that is suitable to you but make sure that it is the same version as your Git tag version.
 
