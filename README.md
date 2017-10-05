@@ -4,6 +4,16 @@ This project demonstrates how to create private cocoapod.
 
 ## Tutorial
 
+### Quickly create [pod-template](https://github.com/cocoapods/pod-template)
+
+Ｒun the following command:
+
+```ruby
+pod lib create MyLibraryName
+```
+
+It will actually help give you a jump start by providing a standard directory structure with a bunch of boilerplate files necessary for a high quality pod. pod lib create isn't the only way to create your pod, but it is the easiest.
+
 ### Create your podspec file
 
 Ｒun the following command:
