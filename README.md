@@ -66,6 +66,57 @@ For example:
 s.source_files = "PrivatePod/*.swift"
 ```
 
+- frameworks
+
+If your pod is depending on other frameworks such as `UIKit`, `Foundation`, you can specify frameworks as the code below.
+
+```ruby
+s.frameworks= 'Foundation', 'UIKit'
+```
+
+- resources
+
+You also can specify resources such as `storyboard`, `xib`, `image`, and `xcassets`. When you set this option, it will add resources in `Copy Bundle Resources` of `Build Phases`.
+
+```ruby
+s.resources = ["PrivatePod/*.xcassets", "PrivatePod/xib/*.xib"]
+```
+
+- subspec
+
+`Subspecs` are a way of chopping up the functionality of a Podspec, allowing people to install a subset of your library.
+
+```ruby
+Pod::Spec.new do |s|
+
+  s.name = "PrivatePod"
+  s.source = { :git => "https://github.com/powerwolf543/PrivatePodExample.git", :tag => s.version }
+
+  s.subspec 'SubPrivatePod' do |sp|
+    sp.source_files  = 'PrivatePod/SubPrivatePod/*.swift'
+  end
+end
+```
+
+With the above example a Podfile using `pod 'PrivatePod'` results in the inclusion of the whole library, while `pod 'PrivatePod/SubPrivatePod'` can be used if you are interested only in the `SubPrivatePod` specific parts.
+
+### Customize BuildSetting
+
+You can write `Ruby` in the `podfile` that can help you to configure the `build setting` for each pods.
+
+```Ruby
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if target.name == 'PrivatePod'
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '4.2'
+                config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Onone'                
+            end
+        end
+    end
+end
+```
+
 ## Example
 
 The example project is under the `Example` folder. If you are the first time to build this project you need to run `pod install` from the Example directory first.
@@ -99,9 +150,9 @@ import PrivatePod
 ## Requirements
 
 - iOS 10+
-- Xcode 9+
-- Swift 4+
-- CocoaPods 1.3.1+
+- Xcode 10+
+- Swift 4.2+
+- CocoaPods 1.5.3+
 
 ## Author
 
