@@ -11,8 +11,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        PrivatePod.sayHelloWorld()
+        sayHelloWorld()
     }
 
+    @IBAction func callBtnPressed(_ sender: Any) {
+        
+        let vc = SampleViewController(nibName: nil, bundle: Bundle.privatePod)
+        present(vc, animated: true)
+    }
 }
 

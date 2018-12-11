@@ -1,6 +1,0 @@
-framework module PrivatePod {
-  umbrella header "PrivatePod-umbrella.h"
-
-  export *
-  module * { export * }
-}
