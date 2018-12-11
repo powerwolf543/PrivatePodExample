@@ -1,6 +1,16 @@
+[![Cocoapods](https://img.shields.io/badge/Tool-Cocoapods-brown.svg)](https://github.com/CocoaPods/CocoaPods)
+
 # PrivatePod
 
 This project demonstrates how to create private cocoapod.
+
+
+- [Tutorial](#Tutorial)
+- [Example](#Example)
+- [Installation](#Installation)
+- [Requirements](#Requirements)
+- [Author](#Author)
+- [License](#License)
 
 ## Tutorial
 
@@ -58,7 +68,7 @@ s.source_files = "PrivatePod/*.swift"
 
 ## Example
 
-To run the example project, run `pod install` from the Example directory first.
+The example project is under the `Example` folder. If you are the first time to build this project you need to run `pod install` from the Example directory first.
 
 ## Installation
 
@@ -92,10 +102,6 @@ import PrivatePod
 - Xcode 9+
 - Swift 4+
 - CocoaPods 1.3.1+
-
-## Version
-
-- v 1.0.0
 
 ## Author
 
