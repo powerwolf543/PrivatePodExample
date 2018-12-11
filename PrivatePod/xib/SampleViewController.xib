@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SampleViewController" customModule="PrivatePod" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PrivatePod" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbN-R8-1Zf">
+                    <rect key="frame" x="146" y="323" width="83" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khl-0u-OEq">
+                    <rect key="frame" x="161.5" y="394" width="52" height="30"/>
+                    <state key="normal" title="dismiss"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="-1" eventType="touchUpInside" id="l5k-Hr-ckW"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zHZ-ay-hPB">
+                    <rect key="frame" x="152.5" y="203" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="HpD-Aq-4o9"/>
+                        <constraint firstAttribute="width" secondItem="zHZ-ay-hPB" secondAttribute="height" multiplier="1:1" id="f0u-z8-4E1"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zHZ-ay-hPB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0hx-Qd-sY9"/>
+                <constraint firstItem="TbN-R8-1Zf" firstAttribute="top" secondItem="zHZ-ay-hPB" secondAttribute="bottom" constant="50" id="TgZ-24-J54"/>
+                <constraint firstItem="Khl-0u-OEq" firstAttribute="top" secondItem="TbN-R8-1Zf" secondAttribute="bottom" constant="50" id="Wbm-PF-jUc"/>
+                <constraint firstItem="TbN-R8-1Zf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wyd-Uf-HQ3"/>
+                <constraint firstItem="TbN-R8-1Zf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dzG-mL-zB9"/>
+                <constraint firstItem="Khl-0u-OEq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="i5c-Is-npj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="WolfLogo" width="100" height="100"/>
+    </resources>
+</document>
